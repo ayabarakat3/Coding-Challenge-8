@@ -70,4 +70,4 @@ console.log(manager2.getDetails());
 /* Code created to display output through a set message.
 Code has been tested and displays desired output.
 Code runs as needed.
-Task 3 is now complete. 
+Task 3 is now complete.*/
