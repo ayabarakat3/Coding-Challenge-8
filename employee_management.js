@@ -90,6 +90,9 @@ Code displays total salary for both departments individually and combined and al
 I combined 2 tasks in one as this was the only way my code wouuld run.
 Tasks 2 and 4 are now complete. */
 
-
-
-
+/* Task 5: Create and Manage Departments and Employees
+I have already created and managed departments and employees throughout my previous tasks. 
+I have created new employees and assigned departments, salaries, positions, and bonuses.
+All tasks have been complete my this point.
+All tasks have been tested and displayed expected outcome.
+Coding Challenge 8 is now complete.*/
