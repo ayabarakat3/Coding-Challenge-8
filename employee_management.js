@@ -51,3 +51,23 @@ Code is tested and displays expected output.
 Code displays total salary for both departments individually and combined.
 (I know this isn't in the instructions but I wanted to test it out and it worked so I kept it).
 Task 2 is now complete. */
+
+// Task 3: Create a Manager Class that Inherits from Employee
+class Manager extends Employee {
+constructor(name, salary, position, department, bonus) {
+super(name, salary, position, department);
+this.bonus = bonus;}
+// Code created to start showing and displaying the bonus amount when the code output is revealed.
+getDetails() {
+return `${super.getDetails()}, Bonus amount: $${this.bonus}`;}}
+// Code meant to display the details about the staff members and the bonus amount.
+let manager1 = new Manager("Belle", 148000, "Restaurant Manager", "Restaurant", 15000);
+let manager2 = new Manager("Jazmine", 155000, "Theme Park Manager", "Entertainment", 20000);
+let manager3 = new Manager("Tiana", 145000, "Theme Park Manager Assistant", "Entertainment", 12000);
+// New managers set. Code meant to include information about added managers or staff members while also displaying the bonus amount set.
+console.log(manager1.getDetails());
+console.log(manager2.getDetails());
+/* Code created to display output through a set message.
+Code has been tested and displays desired output.
+Code runs as needed.
+Task 3 is now complete. 
